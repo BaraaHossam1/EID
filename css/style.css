@@ -1,0 +1,146 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url("../images/pra.jpg") ;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  border-style: solid;
+  border-width: thick;
+  border-bottom: none;
+  border-color: #0d3b66;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+}
+.container section:nth-child(odd){
+  background-color: #f4d35e;
+}
+.container section:nth-child(even){
+  background-color: #faf0ca;
+}
+
+#section1{
+  height: 450px;
+  border-radius: 8px
+
+}
+#eid{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: 0;
+
+
+
+}
+#section2{
+  height: 450px;
+}
+#title{
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  border:0;
+  padding: 0;
+  color: #0d3b66;
+
+}
+#p1{
+  font-size: large;
+  margin-left: 20px;
+  color: #0d3b66;
+}
+#poor{
+  width: 100%;
+
+}
+
+#cheer{
+  font-family: 'Bungee Spice', cursive;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 100px;
+  margin: 20px;
+  color: #0d3b66;
+}
+
+#cheer\ img{
+  margin:0;
+  padding: 0;
+  border: none;
+  width: 100%;
+}
+#one {
+  border-width: thick;
+  border-bottom: #0d3b66;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: #0d3b66;
+  font-size:40px;
+}
+#line{
+  background-color: #0d3b66;
+  width: 590px;
+  height: 5px;
+}
+body{
+  color: #0d3b66;
+}
